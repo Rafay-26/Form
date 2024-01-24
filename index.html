@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="./style.css">
+    <title> Registration Form </form></title>
+</head>
+<body> 
+    <img class="abcc" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfmSGjet8_p422wEQsNKkjLLuzVNEG07I-5Q&usqp=CAU&reload=on" alt=""> 
+      <div class="flex">
+        
+        <div class="rafy">
+        
+    
+             <article>
+                <form>
+             <div>
+                  <h1> <strong>Registration</strong></h1>
+             </div>
+            <hr>
+             <br>
+            <br>
+                <lable for="Name"> <strong>Name:</strong><span style="color: red; font-size: 20px;">*</span></lable>
+                <input type="text" id="Name" placeholder="Enter your Name " pattern="(?=.*[A-Z])(?.*[a-z]).{10,}" title="minimum 10 character" maxlength="10" required>
+               <hr> <br>
+            <br> 
+             <lable for="password"> <strong>Password:</strong>   
+                <input type="password" id="password" placeholder="Enter your password " pattern="(?.*[a-z])(?=.*[0-9]).(10,)" title="minimum 10 character"
+                 required> </lable>
+                 <hr> 
+            <br>
+            <br>
+            <lable for="mail"><strong>Email</strong></lable>
+                <input type="email" id="mail" placeholder="Enter your Email" pattern="[-,z]+@[a-z]+/.[a-z]{2,}"> 
+                <hr> 
+                <br>
+                <br>
+                <span>
+                    <input type="radio" id="male" value="gender" required >
+                    <label for="male" class="man"> <strong>Male</strong></label>
+                </span>
+            
+             <span>
+                <input type="radio" id="female" value="gender" required >
+                <label for="female"class="woman"> <strong>Female</strong></label>
+            </span>
+            <hr> 
+            <br>
+            <br>
+                <label for="dod"> <strong>Date of Birth</strong> <span style="color: red; font-size: 20px;">*</span></label>
+                <input type="date" id="dod" placeholder="Enter Date of Birth" required>
+                <hr> 
+                <br>
+                <br>
+                <lable for="phone"><strong>Contact</strong> <span style="color: red; font-size: 20px;">*</span></lable>
+                <input type="text" id="phone" placeholder="Enter your contact " min="11" title="length should be 11" required >
+                <hr> 
+                <br>
+                <br>
+             
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox"><strong>I have Check all the terms and conditions</strong>  <span style="color: red; font-size: 20px;">*</span> </label>
+                <hr> 
+                <br>
+                <br>
+              <div class="llla">
+                <button id="login"> <strong>Signup</strong></button>
+              </div>
+            </form>
+        </article>
+   
+    </div>
+   
+</div>
+ 
+</body>
+</html>
